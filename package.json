@@ -14,7 +14,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && npx style-dictionary build --config config.json",
+    "build": "react-scripts build",
+    "token": "npx style-dictionary build --config config.json",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
