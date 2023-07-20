@@ -1,14 +1,16 @@
 /**
  * Do not edit directly
- * Generated on Thu, 20 Jul 2023 10:40:52 GMT
+ * Generated on Thu, 20 Jul 2023 11:43:50 GMT
  */
 
 :root {
-  --global-colors-blue: #0e94e3;
-  --global-colors-red: #3e3d3d;
-  --global-colors-app-bg: #f6e7e7;
+  --global-colors-blue: #08a4ff;
+  --global-colors-red: #d09007;
+  --global-colors-app-bg: #3e3b3b;
   --global-font-md: 15px;
   --global-container-md: 60%;
   --global-container-lg: 90%;
   --global-container-sm: 40%;
+  --global-grid-columns: 2;
+  --global-grid-columns-size: 48%;
 }

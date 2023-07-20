@@ -4,6 +4,7 @@ body {
   font-size: var(--global-font-md);
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .app_navigation {
@@ -26,8 +27,19 @@ body {
 }
 
 .app_wrapper {
-  background-color: var(--global-colors-app-bg);
-  height: calc(100dvh - 77px);
-  padding: 20px;
+  /* background-color: var(--global-colors-app-bg); */
   color: var(--global-colors-red);
+  grid-template-columns: repeat(var(--global-grid-columns), var(--global-grid-columns-size));
+  height: auto;
+  padding: 15px;
+  display: grid;
+  gap: 10% 2%;
+  justify-content: space-evenly;
+  grid-auto-flow: row;
+}
+
+.app_wrapper div {
+  height: 50px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
 }
